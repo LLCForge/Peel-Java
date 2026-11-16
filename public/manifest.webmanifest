@@ -1,0 +1,20 @@
+{
+  "name": "PEEL · Java Deobfuscator",
+  "short_name": "PEEL Java",
+  "description": "Open-source Java and Android deobfuscator that runs entirely in your browser. Works offline; your files never leave your device.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#110d0a",
+  "theme_color": "#110d0a",
+  "categories": ["developer", "security", "utilities"],
+  "icons": [
+    { "src": "peel-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "peel-icon-1024.png", "sizes": "1024x1024", "type": "image/png", "purpose": "any" },
+    { "src": "peel-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "file_handlers": [
+    { "action": "./", "accept": { "application/java-archive": [".jar", ".aar"], "application/vnd.android.package-archive": [".apk"], "application/octet-stream": [".class", ".dex"] } }
+  ]
+}

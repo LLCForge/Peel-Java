@@ -1,0 +1,27 @@
+{
+  "file": "library.aar",
+  "expect": [
+    "class a.Class1"
+  ],
+  "java": [],
+  "gone": [],
+  "detect": [
+    "proguard"
+  ],
+  "strings": 0,
+  "failed": 0,
+  "rewritten": true,
+  "verified": true,
+  "entries": [
+    "classes.jar",
+    "AndroidManifest.xml"
+  ],
+  "nested": {
+    "classes.jar": [
+      "a/Class1.class"
+    ]
+  },
+  "permissions": [
+    "android.permission.INTERNET"
+  ]
+}

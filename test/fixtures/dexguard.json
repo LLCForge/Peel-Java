@@ -1,0 +1,35 @@
+{
+  "file": "dexguard.apk",
+  "expect": [
+    "const-string v3, \"dalvik.system.DexClassLoader\"",
+    "\"https://config.peel-demo.invalid/v1/flags\"",
+    ".super Landroid/app/Activity;"
+  ],
+  "java": [
+    "v3 = \"Welcome to the Peel demo\";",
+    "System.loadLibrary(v3);"
+  ],
+  "gone": [],
+  "detect": [
+    "dexguard",
+    "r8",
+    "string-encryption",
+    "reflection",
+    "native-code"
+  ],
+  "strings": 4,
+  "failed": 0,
+  "rewritten": false,
+  "verified": false,
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.RECEIVE_BOOT_COMPLETED"
+  ],
+  "threat": [
+    "dynamic-loading",
+    "persistence"
+  ],
+  "native": [
+    "lib/arm64-v8a/libpeelcore.so"
+  ]
+}

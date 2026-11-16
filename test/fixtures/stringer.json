@@ -1,0 +1,21 @@
+{
+  "file": "stringer.jar",
+  "expect": [
+    "\"License check passed\"",
+    "\"mailto:support@peel-demo.invalid\"",
+    "invokestatic    com/peel/s/"
+  ],
+  "java": [
+    "System.out.println(\"License check passed\");"
+  ],
+  "gone": [],
+  "detect": [
+    "stringer",
+    "indy-obfuscation",
+    "string-encryption"
+  ],
+  "strings": 2,
+  "failed": 1,
+  "rewritten": true,
+  "verified": true
+}

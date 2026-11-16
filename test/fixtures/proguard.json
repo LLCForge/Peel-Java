@@ -1,0 +1,28 @@
+{
+  "file": "proguard.jar",
+  "expect": [
+    "class a.Class1",
+    "method1",
+    "strField1"
+  ],
+  "java": [
+    "v1.method1(\"status\")"
+  ],
+  "gone": [
+    "invokevirtual   a/a.a:"
+  ],
+  "detect": [
+    "proguard"
+  ],
+  "strings": 0,
+  "failed": 0,
+  "rewritten": true,
+  "verified": true,
+  "entries": [
+    "a/Class1.class",
+    "com/example/app/Main.class"
+  ],
+  "removed": [
+    "a/a.class"
+  ]
+}

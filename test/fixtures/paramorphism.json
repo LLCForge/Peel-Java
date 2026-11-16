@@ -1,0 +1,29 @@
+{
+  "file": "paramorphism.jar",
+  "expect": [
+    "\"Paramorphism-style sample\""
+  ],
+  "java": [],
+  "gone": [
+    "Main.do",
+    " if."
+  ],
+  "detect": [
+    "paramorphism",
+    "archive-tricks",
+    "generic-names"
+  ],
+  "strings": 0,
+  "failed": 0,
+  "rewritten": true,
+  "verified": true,
+  "entries": [
+    "Main.class",
+    "META-INF/MANIFEST.MF"
+  ],
+  "removed": [
+    "Main.class/",
+    "Junk.class",
+    "if.class"
+  ]
+}

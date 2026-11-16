@@ -1,0 +1,18 @@
+{
+  "file": "hello.class",
+  "expect": [
+    "ldc             \"tick\"",
+    "getstatic       demo/Hello.GREETING"
+  ],
+  "java": [
+    "System.out.println(Hello.GREETING);",
+    "return p0 + p1;",
+    "if (v1 >= 3) goto L"
+  ],
+  "gone": [],
+  "detect": [],
+  "strings": 0,
+  "failed": 0,
+  "rewritten": true,
+  "verified": true
+}

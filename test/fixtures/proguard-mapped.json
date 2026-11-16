@@ -1,0 +1,28 @@
+{
+  "file": "proguard-mapped.jar",
+  "mapping": "proguard-mapped.mapping.txt",
+  "expect": [
+    "com.example.app.net.UpdateClient",
+    "com/example/app/net/UpdateClient.fetch:(Ljava/lang/String;)Ljava/lang/String;"
+  ],
+  "java": [
+    "v2.execute();",
+    "this.endpoint = \"https://api.peel-demo.invalid/v1/\";",
+    "public void reset()"
+  ],
+  "gone": [
+    "a/a.a:"
+  ],
+  "detect": [
+    "proguard"
+  ],
+  "strings": 0,
+  "failed": 0,
+  "rewritten": true,
+  "verified": true,
+  "entries": [
+    "com/example/app/net/UpdateClient.class",
+    "com/example/app/net/PingTask.class",
+    "com/example/app/net/Task.class"
+  ]
+}

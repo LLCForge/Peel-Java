@@ -1,0 +1,22 @@
+{
+  "file": "allatori.jar",
+  "expect": [
+    "\"https://cdn.peel-demo.invalid/update.json\"",
+    "\"Peel demo ready\"",
+    "decryptString1"
+  ],
+  "java": [
+    "System.out.println(\"Checking for updates...\");"
+  ],
+  "gone": [
+    "ALLATORIxDEMO"
+  ],
+  "detect": [
+    "allatori",
+    "string-encryption"
+  ],
+  "strings": 4,
+  "failed": 0,
+  "rewritten": true,
+  "verified": true
+}

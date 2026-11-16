@@ -1,0 +1,25 @@
+{
+  "file": "zkm.jar",
+  "expect": [
+    "\"http://203.0.113.7:8080/beacon\"",
+    "\"Connecting to config server\""
+  ],
+  "java": [
+    "System.out.println(\"Done\");",
+    "switch (v1 % 5)"
+  ],
+  "gone": [
+    "aaload"
+  ],
+  "detect": [
+    "zkm",
+    "string-encryption"
+  ],
+  "strings": 3,
+  "failed": 0,
+  "rewritten": true,
+  "verified": true,
+  "ips": [
+    "203.0.113.7"
+  ]
+}
